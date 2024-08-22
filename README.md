@@ -1,15 +1,22 @@
 # CreatingVirtualMachines
-Creating Virtual Machines
-Task 1. Create a utility virtual machine
+
+##Task 1. Create a utility virtual machine
+
 Create a VM
+
 In the Cloud Console, on the Navigation menu (Navigation menu icon), click Compute Engine > VM instances.
 Click Create Instance.
+
 For Name, type a name for your instance. Hover over the question mark icon for advice about what constitutes a properly formed name.
+
 For Region and Zone select us-east4 and us-east4-b respectively.
+
 For Machine configuration, select Series as E2.
+
 For Machine type, examine the options.
-Note: Notice that the menu lists the number of vCPUs, the amount of memory, and a symbolic name such as e2-medium. The symbolic name is the parameter you would use to select the machine type if you were creating a VM using the gcloud command. Notice to the right of the zone and machine type that there is a per-month estimated cost.
+
 Click Details to the right of the Machine type list to see the breakdown of estimated costs.
+
 For Machine type, click e2-standard-4 (4 vCPUs, 16 GB memory). How did the cost change?
 For Machine type, click e2-medium (2 vCPUs, 4 GB memory).
 For Boot disk, click Change.
